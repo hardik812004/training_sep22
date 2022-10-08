@@ -1,0 +1,267 @@
+a='hello world'
+
+
+a.capitalize()
+'Hello world'
+
+a.title()
+'Hello World'
+
+a.center(50)
+'                   hello world                    '
+
+b='a'
+b.center(3)
+' a '
+
+a.center(50,'*')
+'*******************hello world********************'
+
+a.count('l')
+3
+
+a=a.center(50)
+a
+'                   hello world                    '
+
+a.lstrip()
+'hello world                    '
+
+a.rstrip()
+'                   hello world'
+
+a.strip()
+'hello world'
+a=a.strip()
+a
+'hello world'
+a.isupper()
+False
+a.islower()
+True
+a.upper()
+'HELLO WORLD'
+a
+'hello world'
+a=a.upper()
+a
+'HELLO WORLD'
+a.lower()
+'hello world'
+a.startswith('he')
+False
+a
+'HELLO WORLD'
+a.startswith('HE')
+True
+a.endswith('D')
+True
+len(a)
+11
+
+
+
+
+b='akshat123@gmail.com'
+b.split('@')
+['akshat123', 'gmail.com']
+
+b=b.split('@')
+b
+['akshat123', 'gmail.com']
+
+'@'.join(b)
+'akshat123@gmail.com'
+
+
+m
+[12, 'hi', 2.3, 500]
+'hi' in m
+True
+'hello' in m
+False
+'hi' not in m
+False
+2*m
+[12, 'hi', 2.3, 500, 12, 'hi', 2.3, 500]
+m+=['new val']
+m
+[12, 'hi', 2.3, 500, 'new val']
+m.append('abc')
+m
+[12, 'hi', 2.3, 500, 'new val', 'abc']
+
+m.append('abc','ab')
+Traceback (most recent call last):
+  File "<pyshell#213>", line 1, in <module>
+    m.append('abc','ab')
+TypeError: list.append() takes exactly one argument (2 given)
+
+m.extend(['x','y'])
+m
+[12, 'hi', 2.3, 500, 'new val', 'abc', 'x', 'y']
+
+m.extend('x','y')
+Traceback (most recent call last):
+  File "<pyshell#224>", line 1, in <module>
+    m.extend('x','y')
+TypeError: list.extend() takes exactly one argument (2 given)
+
+
+m.append(['abc','ab'])
+m
+[12, 'hi', 2.3, 500, 'new val', 'abc', 'x', 'y', ['abc', 'ab']]
+
+m.insert(2,'hello')
+m
+[12, 'hi', 'hello', 2.3, 500, 'new val', 'abc', 'x', 'y', ['abc', 'ab']]
+
+m.index('hi')
+1
+
+m[1]
+'hi'
+m[1][0]
+'h'
+
+
+
+m.pop()
+['abc', 'ab']
+
+m
+[12, 'hi', 'hello', 2.3, 500, 'new val', 'abc', 'x', 'y']
+
+
+o=m.pop()
+o
+'y'
+m
+[12, 'hi', 'hello', 2.3, 500, 'new val', 'abc', 'x']
+
+
+m.pop(0)
+12
+m
+['hi', 'hello', 2.3, 500, 'new val', 'abc', 'x']
+
+
+m.clear()
+m
+[]
+
+
+f=[1,5,2,5,3,97,75,90,1000,4]
+f.sort()
+f
+[1, 2, 3, 4, 5, 5, 75, 90, 97, 1000]
+
+f.sort(reverse=True)
+f
+[1000, 97, 90, 75, 5, 5, 4, 3, 2, 1]
+
+
+n=[12,45,52,100]
+n.reverse()
+n
+[100, 52, 45, 12]
+
+max(n)
+100
+min(n)
+12
+
+t= 52,23,'abc'
+t
+(52, 23, 'abc')
+
+type(t)
+<class 'tuple'>
+len(t)
+3
+t.index('abc')
+2
+t[0]
+52
+t[:2]
+(52, 23)
+
+
+k=(12,52,85,(5,'abc',5.5),100)
+k
+(12, 52, 85, (5, 'abc', 5.5), 100)
+type(k)
+<class 'tuple'>
+
+
+k[3]
+(5, 'abc', 5.5)
+k[3][1]
+'abc'
+k[3][1][1]
+'b'
+
+
+s={1,1,2,2,3,4,4,3}
+
+print(s)
+   
+{1, 2, 3, 4}
+
+type(s)
+   
+<class 'set'>
+
+
+s[0]
+   
+Traceback (most recent call last):
+  File "<pyshell#279>", line 1, in <module>
+    s[0]
+TypeError: 'set' object is not subscriptable
+
+
+s2={23,3,41,4}
+s.intersection(s2)
+{3, 4}
+
+s.union(s2)
+{1, 2, 3, 4, 41, 23}
+s.add(100)
+s
+{1, 2, 3, 100, 4}
+s.discard(100)
+s
+{1, 2, 3, 4}
+s.remove(3)
+s
+{1, 2, 4}
+
+s.pop()
+1
+s
+{2, 4}
+s.pop()
+2
+
+s1={44,22,33}
+s={1, 2, 4}
+s
+{1, 2, 4}
+s1={44,22,33}
+s.update(s1)
+s
+{1, 2, 33, 4, 22, 44}
+s.clear()
+s
+set()
+
+
+max(s1)
+44
+min(s1)
+22
+len(s1)
+3
+
+

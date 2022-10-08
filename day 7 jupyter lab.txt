@@ -1,0 +1,46 @@
+3+4 Press shift+enter for output
+7
+
+* This is first program //Change code to markdown to convert the point in the bullets
+1. This is first program //Change code to markdown to convert the point in the 1. format 
+# 1st heading --> For biggest heading
+## 2nd heading --> For medium heading
+### 3rd heading --> For small heading
+
+
+
+import os
+
+os.getcwd()
+it will give the location on the directory
+
+os.chdir("")
+to change the directory.
+
+os.listdir("")
+it will give the contents in the folder.
+
+os.mkdir("New Folder")
+it will create new folder in the folder.
+
+
+
+
+
+https://jupyter.org/try-jupyter/lab?path=dhgA%2FNumpy.ipynb
+https://jupyter.org/try-jupyter/lab?path=dhgA%2FUntitled1.ipynb
+
+
+
+
+
+
+
+
+val = random.random()
+print(val)
+0.123457654345676543467
+
+val2 = random.randint(1,10)
+print(val2)
+6

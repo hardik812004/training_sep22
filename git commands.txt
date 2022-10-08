@@ -1,0 +1,30 @@
+GIT Process
+
+Create new repository 
+provide valid name
+select public repo
+finish
+
+
+GIT COMMANDS. Training
+
+go to your folder eg.Training 
+type cmd in address bar then enter
+
+GIT COMMANDS.
+
+git init                        # Initialize the GIT folder
+git add .			#  Add all files/folders in git folder
+git config user.name "Your Name"
+git config user.email "Your email"
+git remote add origin "yourrepolink.git"
+
+
+git commit -m "any message"
+git push -u origin main
+
+
+
+
+
+https://github.com/hardik812004/training_sep22.git

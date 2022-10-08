@@ -1,0 +1,57 @@
+d1={'name':['akash','akshat','sunny'],
+    'Age':[25,20,22]}
+d1
+{'name': ['akash', 'akshat', 'sunny'], 'Age': [25, 20, 22]}
+type(d1)
+<class 'dict'>
+len(d1)
+2
+d1['name']
+['akash', 'akshat', 'sunny']
+
+d1['Age']
+[25, 20, 22]
+
+d1.keys()
+dict_keys(['name', 'Age'])
+d1.values()
+dict_values([['akash', 'akshat', 'sunny'], [25, 20, 22]])
+d1.items()
+dict_items([('name', ['akash', 'akshat', 'sunny']), ('Age', [25, 20, 22])])
+print(d1)
+{'name': ['akash', 'akshat', 'sunny'], 'Age': [25, 20, 22]}
+d1
+{'name': ['akash', 'akshat', 'sunny'], 'Age': [25, 20, 22]}
+d1['air':3]
+
+
+
+d1['ph_no']=[2223355,8855440,6789876]
+d1
+{'name': ['akash', 'akshat', 'sunny'], 'Age': [25, 20, 22], 'ph_no': [2223355, 8855440, 6789876]}
+d1['name'][0]
+'akash'
+
+d1['name'][0][::-1]
+'hsaka'
+
+d1['name'][0]='ajay'
+d1
+{'name': ['ajay', 'akshat', 'sunny'], 'Age': [25, 20, 22], 'ph_no': [2223355, 8855440, 6789876]}
+
+del d1['ph_no']
+d1
+{'name': ['ajay', 'akshat', 'sunny'], 'Age': [25, 20, 22]}
+
+d1['name'].append('adsd')
+d1
+{'name': ['ajay', 'akshat', 'sunny', 'adsd'], 'Age': [25, 20, 22]}
+
+d1['name'].remove('adsd')
+
+d1.get('email')
+d1.get('name')
+['ajay', 'akshat', 'sunny']
+
+
+##################END REST IN PY FILE##############################
