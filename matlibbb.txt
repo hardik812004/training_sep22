@@ -1,0 +1,8 @@
+# Types of graphs
+1. plot - line graph, between two parameters
+2. bar - bar graph of single parameter
+3. hist - histogram of a bunch of data i.e. frequency of single param
+4. scatter - 
+5. boxplot
+6. stem
+7. violinplot
