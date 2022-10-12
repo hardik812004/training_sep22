@@ -6,3 +6,33 @@
 5. boxplot
 6. stem
 7. violinplot
+
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+impor numpy as np
+
+df1 = pd.read_csv('df1', index_col=0)
+df2 = pd.read_csv('df2')
+df3 = pd.read_csv('df3')
+
+df1.head()
+
+df1.info()
+
+df2.info()
+
+df3,info()
+
+#### Graph Functions
+1. plot - simple line plot
+2. plot.area - filled version of line plot
+3. plot.bar / pot.barh - Bar graph
+4. plot.box - Box Plot
+5. plot.density - Density Line (smooth curved)
+6. plot.hexbin - Hexagon Version of Scatter with Density 
+7. plot.hist - Histogram
+8. plot.kde - Kernel Density Estimator ( Density Graph)
+9. plot.ple - Pie Chart of categorical data
+10. plot.scatter - Scatter Graph
